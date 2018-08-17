@@ -1,8 +1,10 @@
-hash: 5738cf220740f59260ab23d0fbb19e29511849d416a953860fb9b9c3470ca440
-updated: 2018-08-17T10:40:28.530428506+08:00
+hash: 17f483fea7f8ee4ba5c758c27270a1b776fddf9e1946e7ba7e5c7de7b2cc9461
+updated: 2018-08-17T15:32:51.212201727+08:00
 imports:
 - name: github.com/fsnotify/fsnotify
   version: c2828203cd70a50dcccfb2761f8b1f8ceef9a8e9
+- name: github.com/gin-gonic/gin
+  version: b869fe1415e4b9eb52f247441830d502aece2d4d
 - name: github.com/hashicorp/hcl
   version: ef8a98b0bbce4a65b5aa4c368430a80ddc533168
   subpackages:
