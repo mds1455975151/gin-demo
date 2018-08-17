@@ -10,7 +10,7 @@ var startCmd = &cobra.Command{
 	Short: "Print the version number of gin-demo",
 	Long:  `All software has versions, This is gin-demo's'`,
 	Run: func(cmd *cobra.Command, args []string) {
-		server.Start()
+		server.Run()
 	},
 }
 
