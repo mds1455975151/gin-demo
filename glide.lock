@@ -1,5 +1,5 @@
-hash: 17f483fea7f8ee4ba5c758c27270a1b776fddf9e1946e7ba7e5c7de7b2cc9461
-updated: 2018-08-17T15:41:55.348508418+08:00
+hash: 6fa87559fb9971e5a1a013420cba3302a0c65f8ae14021dcb098562b2969d986
+updated: 2018-08-17T16:38:49.733523347+08:00
 imports:
 - name: github.com/fsnotify/fsnotify
   version: c2828203cd70a50dcccfb2761f8b1f8ceef9a8e9
@@ -11,6 +11,14 @@ imports:
   - binding
   - json
   - render
+- name: github.com/go-openapi/jsonpointer
+  version: 3a0015ad55fa9873f41605d3e8f28cd279c32ab2
+- name: github.com/go-openapi/jsonreference
+  version: 3fb327e6747da3043567ee86abd02bb6376b6be2
+- name: github.com/go-openapi/spec
+  version: 384415f06ee238aae1df5caad877de6ceac3a5c4
+- name: github.com/go-openapi/swag
+  version: becd2f08beafcca035645a8a101e0e3e18140458
 - name: github.com/golang/protobuf
   version: aa810b61a9c79d51363740d207bb46cf8e620ed5
   subpackages:
@@ -33,6 +41,12 @@ imports:
   version: 1624edc4454b8682399def8740d46db5e4362ba4
 - name: github.com/magiconair/properties
   version: c2353362d570a7bfa228149c62842019201cfb71
+- name: github.com/mailru/easyjson
+  version: 03f2033d19d5860aef995fe360ac7d395cd8ce65
+  subpackages:
+  - buffer
+  - jlexer
+  - jwriter
 - name: github.com/mattn/go-isatty
   version: 6ca4dbf54d38eea1a992b3c722a76a5d1c4cb25c
 - name: github.com/mitchellh/go-homedir
@@ -45,6 +59,14 @@ imports:
   version: 94122c33edd36123c84d5368cfb2b69df93a0ec8
 - name: github.com/pelletier/go-toml
   version: c2dbbc24a97911339e01bda0b8cabdbd8f13b602
+- name: github.com/pkg/errors
+  version: 816c9085562cd7ee03e7f8188a1cfd942858cded
+- name: github.com/PuerkitoBio/purell
+  version: 975f53781597ed779763b7b65566e74c4004d8de
+- name: github.com/PuerkitoBio/urlesc
+  version: de5bf2ad457846296e2031421a34e2568e304e35
+- name: github.com/sirupsen/logrus
+  version: fc587f31c804fe6853cd90f0d8d90af588eca5bd
 - name: github.com/spf13/afero
   version: 787d034dfe70e44075ccc060d346146ef53270ad
   subpackages:
@@ -59,19 +81,42 @@ imports:
   version: 947b89bd1b7dabfed991ac30e1a56f5193f0c88b
 - name: github.com/spf13/viper
   version: 907c19d40d9a6c9bb55f040ff4ae45271a4754b9
+- name: github.com/swaggo/gin-swagger
+  version: 8cf3fa9932e247205d1cf2be6fd13a9d09ceb9a4
+- name: github.com/swaggo/swag
+  version: bd1fb1b47bff56cd0259d0313b9e4584da6da33f
 - name: github.com/ugorji/go
   version: 00b869d2f4a5e27445c2d916fa106fc72c106d4c
   subpackages:
   - codec
+- name: golang.org/x/crypto
+  version: aabede6cba87e37f413b3e60ebfc214f8eeca1b0
+  subpackages:
+  - ssh/terminal
+- name: golang.org/x/net
+  version: aaf60122140d3fcf75376d319f0554393160eb50
+  subpackages:
+  - idna
 - name: golang.org/x/sys
   version: 1c9583448a9c3aa0f9a6a5241bf73c0bd8aafded
   subpackages:
   - unix
+  - windows
 - name: golang.org/x/text
   version: 6e3c4e7365ddcc329f090f96e4348398f6310088
   subpackages:
+  - secure/bidirule
   - transform
+  - unicode/bidi
   - unicode/norm
+  - width
+- name: golang.org/x/tools
+  version: 1dfe8478fdec02e49c998048ab9f761d64949349
+  subpackages:
+  - go/ast/astutil
+  - go/buildutil
+  - go/internal/cgo
+  - go/loader
 - name: gopkg.in/go-playground/validator.v8
   version: 5f1438d3fca68893a817e4a66806cea46a9e4ebf
 - name: gopkg.in/yaml.v2
